@@ -53,7 +53,7 @@ labs ( x = "DEGREE" , y = "WORDSUM SCORE" , title = "WORDSUM EXPLAINED BY WORDSU
 theme ( plot.title = element_text (hjust = 0.5, size = 16) )
 ```
 
-
+From this box plot we can tell that the entire IQR of the High School and LT High School is underneath the median of all of the college groups.
 
 ### Numerical Descriptive Results
 
