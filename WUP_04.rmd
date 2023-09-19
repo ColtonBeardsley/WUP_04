@@ -63,7 +63,7 @@ From this box plot we can tell that the entire IQR of the High School and LT Hig
 favstats(WORDSUM~DEGREE,data=mydata)
 ```
 
-
+the mean and median of the LT High school and the high school subcategories are for lower than means and medians of the university level data points.
 
 ## Inferential Results
 
