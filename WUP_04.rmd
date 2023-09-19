@@ -11,6 +11,7 @@ output:
 require(knitr)
 require(tidyverse)
 require(tigerstats)
+mydata <- read.csv(file="GSScsv.csv")
 
 ```
 
