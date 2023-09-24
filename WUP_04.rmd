@@ -63,7 +63,7 @@ From this box plot we can tell that the entire IQR of the High School and LT Hig
 favstats(WORDSUM~DEGREE,data=mydata)
 ```
 
-the mean and median of the LT High school and the high school subcategories are for lower than means and medians of the university level data points.
+The mean and median of the LT High school and the high school subcategories are for lower than means and medians of the university level data points.
 
 ## Inferential Results
 
@@ -80,8 +80,13 @@ par(mar = c(3, 15, 2, 2))
 plot(TukeyHSD(model1,conf.level = 0.99),las=2)
 ```
 
-The results from both the TukeyHSD and aov test shows that 
+The results from both the TukeyHSD and aov test shows that there are significant differences in the different DEGREE categories. This can be best seen when we apply a high confidence level to the results, as we did with the TukeyHSD model that had a 99% confidence level, which showd a significant difference in the HIGH SCHOOL-GRADUATE and LT HIGH SCHOOL-GRADUATE. The low p-value from the avo test is a very small value, 0.000236. This means that there is a statistically significant results, which is evidence against the null hypothesis.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+From the first box plot we could tell that the entire IQR of the High School and LT High School was underneath the median of all of the college groups. By itself this is not enough to prove that there was a significant statistically difference, but it did serve as a good starting point of analysis. From this point we went on to look at the favstats test in order to further compare the data between the various categories. This proved to show that the mean and median the LT High School and the High School subcategories are for lower than means and medians of the university level data points. We then ran an aov test, which showed that there was a very small p-value of 0.000236, showing that there was a statically significant result in the data. This is further proved by running the TukeyHSD test, which showed a statically difference with a 99% confidence level applied to it.
+
+This all proves to show that there prove the $H_a$ and that there is a significant difference in average score on the WORDSUM test between at least two levels of DEGREE, that being the difference between the average Highschool WORDSUM test scores and the average College WORDSUM test scores.
+
